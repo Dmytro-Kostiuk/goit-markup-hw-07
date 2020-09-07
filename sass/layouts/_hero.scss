@@ -1,0 +1,25 @@
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: $white-color;
+}
+
+.hero {
+  background: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.6) 0%,
+      rgba(47, 48, 58, 0.6) 100%
+    ),
+    url(../images/hero/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}

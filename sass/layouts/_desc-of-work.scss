@@ -1,0 +1,12 @@
+.desc-of-work-item {
+  /*flex-direction: column;*/
+  width: calc((100% - 90px) / 4);
+}
+
+.desc-of-work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-title {
+  @extend %text-position;
+}

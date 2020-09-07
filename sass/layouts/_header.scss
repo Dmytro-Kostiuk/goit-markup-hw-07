@@ -1,0 +1,44 @@
+.page-header {
+  padding: 24px 0 25px 0;
+  border: 1px solid #ececec;
+}
+
+.navigation {
+  display: flex;
+
+  align-items: center;
+  margin-right: auto;
+}
+
+.list-item {
+  margin-right: 50px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.active {
+  color: $hover-color;
+
+  &::after {
+    content: "";
+    display: block;
+
+    height: 4px;
+    position: relative;
+    top: 32px;
+
+    background: #2196f3;
+    border-radius: 2px;
+  }
+}
+
+.contacts {
+  color: $general-color;
+  display: inline-flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
